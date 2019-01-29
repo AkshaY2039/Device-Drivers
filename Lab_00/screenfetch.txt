@@ -1,0 +1,35 @@
+Script started on Tuesday 29 January 2019 09:50:21 AM IST
+[1m[7m%[27m[1m[0m                                                                                                                                          ]2;akshay@Kumar: ~/Desktop/SEM8LAB/Device Drivers/Lab 00]1;..rivers/Lab 00[0m[27m[24m[J
+[01;34mSEM8LAB/Device Drivers/Lab 00[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[126C[1A[37m19d[00m [33m⚑ [37m◒  [01;31m[00m[1B[135D[?1h=[?2004hsscreen
+[J[0mscreen       [Jscreendump   [Jscreenfetch  [JSCREEN_NO  [J[A[0m[27m[24m[2Cscreen[K[120C[1A[37m19d[00m [33m⚑ [37m◒  [01;31m[00m[1B[129D
+[J[7mscreen     [0m  [Jscreendump   [Jscreenfetch  [JSCREEN_NO  [J[A[0m[27m[24m[2Cscreen[K[120C[1A[37m19d[00m [33m⚑ [37m◒  [01;31m[00m[1B[129D
+[7mscreen     [0m  [7mscreen     [0m  [A[0m[27m[24m[2Cscreen[K[120C[1A[37m19d[00m [33m⚑ [37m◒  [01;31m[00m[1B[129Ddump
+[13C[7mscreendump [0m  screen       [A[0m[27m[24m[2Cscreendump[K[116C[1A[37m19d[00m [33m⚑ [37m◒  [01;31m[00m[1B[125Dfetch
+[26C[7mscreenfetch[0m  [13Cscreendump   [A[0m[27m[24m[2Cscreenfetch[K[115C[1A[37m19d[00m [33m⚑ [37m◒  [01;31m[00m[1B[124D[11DSCREEN_NO[1m=[0m 
+[39C[7mSCREEN_NO  [0m[26Cscreenfetch  [A[0m[27m[24m[2CSCREEN_NO[1m=[0m[K[116C[1A[37m19d[00m [33m⚑ [37m◒  [01;31m[00m[1B[125D[10Dscreenfet[0mch
+[26C[7mscreenfetch[0m  [39CSCREEN_NO  [A[0m[27m[24m[2Cscreenfetch[K[115C[1A[37m19d[00m [33m⚑ [37m◒  [01;31m[00m[1B[124D
+[J[A[13C[1m [0m[0m [?1l>[?2004l
+[J]2;screenfetch]1;screenfetch                                       [0m[1;32makshay[0m[1m@[0m[0m[1;32mKumar[0m
+[0m[1;32m MMMMMMMMMMMMMMMMMMMMMMMMMmds+.       [0m[1;32m OS:[0m Mint 18.3 sylvia[0m
+[0m[1;32m MMm----::-://////////////oymNMd+`    [0m[1;32m Kernel:[0m x86_64 Linux 4.15.0-33-generic[0m
+[0m[1;32m MMd      [0m[1;37m/++                [0m[1;32m-sNMd:   [0m[1;32m Uptime:[0m 12d 19h 48m[0m
+[0m[1;32m MMNso/`  [0m[1;37mdMM    `.::-. .-::.` [0m[1;32m.hMN:  [0m[1;32m Packages:[0m 2656[0m
+[0m[1;32m ddddMMh  [0m[1;37mdMM   :hNMNMNhNMNMNh: [0m[1;32m`NMm  [0m[1;32m Shell:[0m zsh i[0m
+[0m[1;32m     NMm  [0m[1;37mdMM  .NMN/-+MMM+-/NMN` [0m[1;32mdMM  [0m[1;32m Resolution:[0m 1366x768[0m
+[0m[1;32m     NMm  [0m[1;37mdMM  -MMm  `MMM   dMM. [0m[1;32mdMM  [0m[1;32m DE:[0m Cinnamon 3.6.7[0m
+[0m[1;32m     NMm  [0m[1;37mdMM  -MMm  `MMM   dMM. [0m[1;32mdMM  [0m[1;32m WM:[0m Muffin[0m
+[0m[1;32m     NMm  [0m[1;37mdMM  .mmd  `mmm   yMM. [0m[1;32mdMM  [0m[1;32m WM Theme:[0m Linux Mint (Mint-Y-Dark)[0m
+[0m[1;32m     NMm  [0m[1;37mdMM`  ..`   ...   ydm. [0m[1;32mdMM  [0m[1;32m GTK Theme:[0m Mint-Y-Dark [GTK2/3][0m
+[0m[1;32m     hMM- [0m[1;37m+MMd/-------...-:sdds  [0m[1;32mdMM  [0m[1;32m Icon Theme:[0m Mint-X-Aqua[0m
+[0m[1;32m     -NMm- [0m[1;37m:hNMNNNmdddddddddy/`  [0m[1;32mdMM  [0m[1;32m Font:[0m Noto Sans 9[0m
+[0m[1;32m      -dMNs-[0m[1;37m``-::::-------.``    [0m[1;32mdMM  [0m[1;32m CPU:[0m Intel Core i5-5200U CPU @ 2.7GHz[0m
+[0m[1;32m       `/dMNmy+/:-------------:/yMMM  [0m[1;32m GPU:[0m Mesa DRI Intel(R) HD Graphics 5500 (Broadwell GT2) [0m
+[0m[1;32m          ./ydNMMMMMMMMMMMMMMMMMMMMM  [0m[1;32m RAM:[0m 2530MiB / 7888MiB[0m
+[0m[1;32m             \.MMMMMMMMMMMMMMMMMMM    [0m
+                                      [0m
+[1m[7m%[27m[1m[0m                                                                                                                                          ]2;akshay@Kumar: ~/Desktop/SEM8LAB/Device Drivers/Lab 00]1;..rivers/Lab 00[0m[27m[24m[J
+[01;34mSEM8LAB/Device Drivers/Lab 00[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[126C[1A[37m19d[00m [33m⚑ [37m◒  [01;31m[00m[1B[135D[?1h=[?2004h[?2004l
+
+Script done on Tuesday 29 January 2019 09:50:34 AM IST

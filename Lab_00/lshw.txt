@@ -1,0 +1,245 @@
+Script started on Tuesday 29 January 2019 09:49:55 AM IST
+[1m[7m%[27m[1m[0m                                                                                                                                          ]2;akshay@Kumar: ~/Desktop/SEM8LAB/Device Drivers/Lab 00]1;..rivers/Lab 00[0m[27m[24m[J
+[01;34mSEM8LAB/Device Drivers/Lab 00[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[126C[1A[37m19d[00m [33m⚑ [37m◒  [01;31m[00m[1B[135D[?1h=[?2004hllshw[?1l>[?2004l
+]2;lshw]1;lshwWARNING: you should run this program as super-user.
+DMI   SMP   PA-RISC       device-tree           SPD   memory      /proc/cpuinfo             CPUID     PCI (sysfs)           ISA PnP       PCMCIA      PCMCIA      kernel device tree (sysfs)                          USB   IDE   SCSI    Network interfaces                  Framebuffer devices                   Display       CPUFreq       ABI   kumar
+    description: Computer
+    width: 64 bits
+    capabilities: vsyscall32
+  *-core
+       description: Motherboard
+       physical id: 0
+     *-memory
+          description: System memory
+          physical id: 0
+          size: 7888MiB
+     *-cpu
+          product: Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz
+          vendor: Intel Corp.
+          physical id: 1
+          bus info: cpu@0
+          size: 2482MHz
+          capacity: 2700MHz
+          width: 64 bits
+          capabilities: fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp x86-64 constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap intel_pt xsaveopt dtherm ida arat pln pts flush_l1d cpufreq
+     *-pci
+          description: Host bridge
+          product: Broadwell-U Host Bridge -OPI
+          vendor: Intel Corporation
+          physical id: 100
+          bus info: pci@0000:00:00.0
+          version: 09
+          width: 32 bits
+          clock: 33MHz
+          configuration: driver=bdw_uncore
+          resources: irq:0
+        *-display
+             description: VGA compatible controller
+             product: Broadwell-U Integrated Graphics
+             vendor: Intel Corporation
+             physical id: 2
+             bus info: pci@0000:00:02.0
+             version: 09
+             width: 64 bits
+             clock: 33MHz
+             capabilities: vga_controller bus_master cap_list rom
+             configuration: driver=i915 latency=0
+             resources: irq:49 memory:d0000000-d0ffffff memory:c0000000-cfffffff ioport:5000(size=64) memory:c0000-dffff
+        *-multimedia:0
+             description: Audio device
+             product: Broadwell-U Audio Controller
+             vendor: Intel Corporation
+             physical id: 3
+             bus info: pci@0000:00:03.0
+             version: 09
+             width: 64 bits
+             clock: 33MHz
+             capabilities: bus_master cap_list
+             configuration: driver=snd_hda_intel latency=0
+             resources: irq:51 memory:d1310000-d1313fff
+        *-usb
+             description: USB controller
+             product: Wildcat Point-LP USB xHCI Controller
+             vendor: Intel Corporation
+             physical id: 14
+             bus info: pci@0000:00:14.0
+             version: 03
+             width: 64 bits
+             clock: 33MHz
+             capabilities: xhci bus_master cap_list
+             configuration: driver=xhci_hcd latency=0
+             resources: irq:46 memory:d1300000-d130ffff
+        *-communication
+             description: Communication controller
+             product: Wildcat Point-LP MEI Controller #1
+             vendor: Intel Corporation
+             physical id: 16
+             bus info: pci@0000:00:16.0
+             version: 03
+             width: 64 bits
+             clock: 33MHz
+             capabilities: bus_master cap_list
+             configuration: driver=mei_me latency=0
+             resources: irq:53 memory:d131a000-d131a01f
+        *-multimedia:1
+             description: Audio device
+             product: Wildcat Point-LP High Definition Audio Controller
+             vendor: Intel Corporation
+             physical id: 1b
+             bus info: pci@0000:00:1b.0
+             version: 03
+             width: 64 bits
+             clock: 33MHz
+             capabilities: bus_master cap_list
+             configuration: driver=snd_hda_intel latency=64
+             resources: irq:54 memory:d1314000-d1317fff
+        *-pci:0
+             description: PCI bridge
+             product: Wildcat Point-LP PCI Express Root Port #1
+             vendor: Intel Corporation
+             physical id: 1c
+             bus info: pci@0000:00:1c.0
+             version: e3
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:42 ioport:2000(size=4096) memory:a0100000-a02fffff ioport:a0300000(size=2097152)
+        *-pci:1
+             description: PCI bridge
+             product: Wildcat Point-LP PCI Express Root Port #3
+             vendor: Intel Corporation
+             physical id: 1c.2
+             bus info: pci@0000:00:1c.2
+             version: e3
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:43 ioport:4000(size=4096) memory:d1200000-d12fffff ioport:a0500000(size=2097152)
+           *-network
+                description: Ethernet interface
+                product: RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller
+                vendor: Realtek Semiconductor Co., Ltd.
+                physical id: 0
+                bus info: pci@0000:02:00.0
+                logical name: enp2s0
+                version: 10
+                serial: c8:5b:76:6a:5e:1b
+                size: 100Mbit/s
+                capacity: 1Gbit/s
+                width: 64 bits
+                clock: 33MHz
+                capabilities: bus_master cap_list ethernet physical tp mii 10bt 10bt-fd 100bt 100bt-fd 1000bt 1000bt-fd autonegotiation
+                configuration: autonegotiation=on broadcast=yes driver=r8169 driverversion=2.3LK-NAPI duplex=full firmware=rtl8168g-3_0.0.1 04/23/13 ip=172.16.19.2 latency=0 link=yes multicast=yes port=MII speed=100Mbit/s
+                resources: irq:18 ioport:4000(size=256) memory:d1204000-d1204fff memory:d1200000-d1203fff
+        *-pci:2
+             description: PCI bridge
+             product: Wildcat Point-LP PCI Express Root Port #4
+             vendor: Intel Corporation
+             physical id: 1c.3
+             bus info: pci@0000:00:1c.3
+             version: e3
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:44 ioport:6000(size=4096) memory:d1100000-d11fffff ioport:a0700000(size=2097152)
+           *-network
+                description: Wireless interface
+                product: Wireless 3160
+                vendor: Intel Corporation
+                physical id: 0
+                bus info: pci@0000:03:00.0
+                logical name: wlp3s0
+                version: 93
+                serial: 2c:6e:85:ae:6c:da
+                width: 64 bits
+                clock: 33MHz
+                capabilities: bus_master cap_list ethernet physical wireless
+                configuration: broadcast=yes driver=iwlwifi driverversion=4.15.0-33-generic firmware=17.948900127.0 ip=172.16.12.200 latency=0 link=yes multicast=yes wireless=IEEE 802.11
+                resources: irq:52 memory:d1100000-d1101fff
+        *-pci:3
+             description: PCI bridge
+             product: Wildcat Point-LP PCI Express Root Port #5
+             vendor: Intel Corporation
+             physical id: 1c.4
+             bus info: pci@0000:00:1c.4
+             version: e3
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:45 ioport:3000(size=4096) memory:d1000000-d10fffff ioport:b0000000(size=268435456)
+           *-display
+                description: Display controller
+                product: Sun XT [Radeon HD 8670A/8670M/8690M / R5 M330]
+                vendor: Advanced Micro Devices, Inc. [AMD/ATI]
+                physical id: 0
+                bus info: pci@0000:04:00.0
+                version: 83
+                width: 64 bits
+                clock: 33MHz
+                capabilities: bus_master cap_list rom
+                configuration: driver=radeon latency=0
+                resources: irq:50 memory:b0000000-bfffffff memory:d1000000-d103ffff ioport:3000(size=256) memory:d1040000-d105ffff
+        *-isa
+             description: ISA bridge
+             product: Wildcat Point-LP LPC Controller
+             vendor: Intel Corporation
+             physical id: 1f
+             bus info: pci@0000:00:1f.0
+             version: 03
+             width: 32 bits
+             clock: 33MHz
+             capabilities: isa bus_master cap_list
+             configuration: driver=lpc_ich latency=0
+             resources: irq:0
+        *-storage
+             description: SATA controller
+             product: Wildcat Point-LP SATA Controller [AHCI Mode]
+             vendor: Intel Corporation
+             physical id: 1f.2
+             bus info: pci@0000:00:1f.2
+             version: 03
+             width: 32 bits
+             clock: 66MHz
+             capabilities: storage ahci_1.0 bus_master cap_list
+             configuration: driver=ahci latency=0
+             resources: irq:47 ioport:5088(size=8) ioport:5094(size=4) ioport:5080(size=8) ioport:5090(size=4) ioport:5060(size=32) memory:d1318000-d13187ff
+        *-serial
+             description: SMBus
+             product: Wildcat Point-LP SMBus Controller
+             vendor: Intel Corporation
+             physical id: 1f.3
+             bus info: pci@0000:00:1f.3
+             version: 03
+             width: 64 bits
+             clock: 33MHz
+             configuration: driver=i801_smbus latency=0
+             resources: irq:18 memory:d1319000-d13190ff ioport:5040(size=32)
+     *-scsi
+          physical id: 2
+          logical name: scsi1
+          capabilities: emulated
+        *-cdrom
+             description: DVD-RAM writer
+             product: DVD-RW DA8A6SH
+             vendor: PLDS
+             physical id: 0.0.0
+             bus info: scsi@1:0.0.0
+             logical name: /dev/cdrom
+             logical name: /dev/cdrw
+             logical name: /dev/dvd
+             logical name: /dev/dvdrw
+             logical name: /dev/sr0
+             version: GL61
+             capabilities: removable audio cd-r cd-rw dvd dvd-r dvd-ram
+             configuration: ansiversion=5 status=nodisc
+WARNING: output may be incomplete or inaccurate, you should run this program as super-user.
+[1m[7m%[27m[1m[0m                                                                                                                                          ]2;akshay@Kumar: ~/Desktop/SEM8LAB/Device Drivers/Lab 00]1;..rivers/Lab 00[0m[27m[24m[J
+[01;34mSEM8LAB/Device Drivers/Lab 00[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[126C[1A[37m19d[00m [33m⚑ [37m◒  [01;31m[00m[1B[135D[?1h=[?2004h[?2004l
+
+Script done on Tuesday 29 January 2019 09:50:03 AM IST
