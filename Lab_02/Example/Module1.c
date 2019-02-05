@@ -12,6 +12,7 @@
 static int __init init_mod (void) /*Constructor*/
 {
 	printk (KERN_INFO "Module1 Started ...\n");
+	printk (KERN_INFO "Hello Akshay");
 	return 0;
 }
 

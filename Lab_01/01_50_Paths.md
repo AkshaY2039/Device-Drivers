@@ -6,13 +6,13 @@
 >	1. | / | Root directory | root of the entire file system hierarchy
 >	2. | /bin/ | Essential user command binaries | All the executable binary programs (file) required during booting, repairing, files required to run into single-user-mode, and other important, basic commands viz., cat, du, df, tar, rpm, wc, history, etc.
 >	3. | /boot/ | Static Files of the Boot loader | Holds important files during boot-up process, including Linux Kernel.
->	4. | /cdrom/ |  | 
->	5. | /core |  | 
+>	4. | /cdrom/ | CD ROM | Mounts the CD Optical Disk
+>	5. | /core | Core OS file (one file) | Image file of OS
 >	6. | /dev/ | Device Files | Contains device files for all the hardware devices on the machine e.g., cdrom, cpu, etc
->	7. | /etc/ | Host-Specific Systen Configuration `required directories : opt, x11, sqml, xml`
->	8. | /home/ | User Home Directories
->	9. | /initrd.img |  | 
->	10. | /initrd.img.old |  | 
+>	7. | /etc/ | Host-Specific Systen Configuration `required directories : opt, x11, sqml, xml` | Contains Application’s configuration files, startup, shutdown, start, stop script for every individual program
+>	8. | /home/ | User Home Directories | Home directory of the users. Every time a new user is created, a directory in the name of user is created within home directory which contains other directories like Desktop, Downloads, Documents, etc
+>	9. | /initrd.img | Initial RamDisk file | initrd (initial ramdisk) is a scheme for loading a temporary root file system into memory, which may be used as part of the Linux startup process
+>	10. | /initrd.img.old | Initial RamDisk backup | backup of initial RamDisk file
 >	11. | /lib/ | Essential Shared Libraries and Kernel Modules
 >	12. | /lib64/ | Essential Shared Libraries and Kernel Modules for 64 bit
 >	13. | /lost+found/ |  | 

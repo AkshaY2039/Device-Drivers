@@ -1,0 +1,11 @@
+# Extra Files
+*.o
+*.symvers
+*.mod.o
+*.order
+*.mod.c
+*.o.cmd
+.cache.mk
+*.ko.cmd
+*/.tmp_versions
+
