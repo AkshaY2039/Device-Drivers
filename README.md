@@ -28,6 +28,7 @@ Machine Description :
 	*	Types of Device Drivers
 	*	File Systems and How Hard disk is divided?
 	*	BOOT FILE
+1.	Write a c program and attach to kernel.
 
 ##	Lab 03 :  - 20190129
 
