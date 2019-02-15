@@ -19,6 +19,7 @@ Machine Description :
 2.	List atleast 50 daemons (E.g. syslogd).
 3.	List all Device Drivers from your OS.
 4.	Write a shell script with atleast 100 lines.
+	*	Reference: [Alexander Epstein - Bash Snippets](https://github.com/alexanderepstein/Bash-Snippets/blob/master/currency/currency)
 5.	Write a C program & attach it with Kernel
 6.	Download source code of a command not available in your OS & add it to your Kernel.
 
@@ -28,7 +29,7 @@ Machine Description :
 	*	Types of Device Drivers
 	*	File Systems and How Hard disk is divided?
 	*	BOOT FILE
-1.	Write a c program and attach to kernel.
+1.	Write a Kernel Module and attach to Kernel.
 
 ##	Lab 03 :  - 20190129
 1.	Write a keyboard sniffer / keylogger kernel module.
@@ -36,6 +37,8 @@ Machine Description :
 ##	Lab 04 :  - 20190205
 
 ##	Lab 05 :  - 20190213
+1.	[IOCTL](https://github.com/DukeOwlington/ioctl_lkm)
+2.	Write a mouse driver module to track pointer position.
 
 ##	Lab 06 :  - 20190220
 
