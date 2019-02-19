@@ -55,13 +55,14 @@
 >	50 | crond | Time-based job scheduler, runs jobs in the background
 
 ###	Reference
-1.	Commands to find out about Daemons
-	*	ps -e | grep -e d$ -e daemon
-	*	service --status-all | grep "+"
-	*	systemctl list-units
-2.	[systemd.index — List all manpages from the systemd project](https://www.freedesktop.org/software/systemd/man/index.html)
-3.	[what is the [kthreadd] process?](http://www.linuxvox.com/post/what-is-the-kthreadd-process/)
-4.	[Kernel Feature's Documentation](https://www.kernel.org/doc/Documentation/)
-5.	[man7.org](http://man7.org/index.html)
-6.	[List of UNIX Daemons](https://www.wikipedia.org/en/wiki/List_of_Unix_daemons)
-7.	[Gnome Virtual File System](https://www.wikipedia.org/en/wiki/GVfs)
+0.	Commands to find out about Daemons
+	*	`ps -e | grep -e d$ -e daemon`
+		-	[running daemons](./Lab_00/running_daemons.txt)
+	*	`service --status-all | grep "+"`
+	*	`systemctl list-units`
+1.	[systemd.index — List all manpages from the systemd project](https://www.freedesktop.org/software/systemd/man/index.html)
+2.	[what is the [kthreadd] process?](http://www.linuxvox.com/post/what-is-the-kthreadd-process/)
+3.	[Kernel Feature's Documentation](https://www.kernel.org/doc/Documentation/)
+4.	[man7.org](http://man7.org/index.html)
+5.	[List of UNIX Daemons](https://www.wikipedia.org/en/wiki/List_of_Unix_daemons)
+6.	[Gnome Virtual File System](https://www.wikipedia.org/en/wiki/GVfs)

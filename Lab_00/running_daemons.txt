@@ -1,0 +1,53 @@
+Script started on Monday 18 February 2019 10:32:34 AM IST
+[1m[7m%[27m[1m[0m                                                                                   ]2;akshay@Kumar: ~/Desktop/SEM8LAB/Device_Drivers/Lab_00]1;..rivers/Lab_00[0m[27m[24m[J
+[01;34mSEM8LAB/Device_Drivers/Lab_00[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[66C[1A[37m11h59m[00m [31m✖ [33m⚑ [37m◒  [01;31m[00m[1B[80D[?1h=[?2004hps -e | grep -e d$ -e daemon[?1l>[?2004l
+]2;ps -e | grep --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn} -e d$ -e ]1;ps    1 ?        00:00:06 system[1;33m[Kd[m[K
+    2 ?        00:00:00 kthread[1;33m[Kd[m[K
+    8 ?        00:01:45 rcu_sche[1;33m[Kd[m[K
+   34 ?        00:00:00 kaudit[1;33m[Kd[m[K
+   39 ?        00:00:00 khungtask[1;33m[Kd[m[K
+   43 ?        00:00:00 ksm[1;33m[Kd[m[K
+   44 ?        00:00:01 khugepage[1;33m[Kd[m[K
+   46 ?        00:00:00 kintegrity[1;33m[Kd[m[K
+   47 ?        00:00:00 kblock[1;33m[Kd[m[K
+   49 ?        00:00:00 m[1;33m[Kd[m[K
+   52 ?        00:00:00 watchdog[1;33m[Kd[m[K
+   98 ?        00:00:00 kthrotl[1;33m[Kd[m[K
+  387 ?        00:00:00 lvmeta[1;33m[Kd[m[K
+  398 ?        00:00:00 systemd-udev[1;33m[Kd[m[K
+  869 ?        00:00:01 acpi[1;33m[Kd[m[K
+  878 ?        00:00:00 rsyslog[1;33m[Kd[m[K
+  886 ?        00:00:01 accounts-[1;33m[Kdaemon[m[K
+  888 ?        00:00:07 thermal[1;33m[Kd[m[K
+  889 ?        00:00:31 dbus-[1;33m[Kdaemon[m[K
+  921 ?        00:00:01 avahi-[1;33m[Kdaemon[m[K
+  922 ?        00:00:01 systemd-login[1;33m[Kd[m[K
+  973 ?        00:00:00 avahi-[1;33m[Kdaemon[m[K
+ 1092 ?        00:00:00 polkit[1;33m[Kd[m[K
+ 1119 ?        00:00:00 color[1;33m[Kd[m[K
+ 1129 ?        00:01:03 mysql[1;33m[Kd[m[K
+ 1289 ?        00:00:02 upower[1;33m[Kd[m[K
+ 1430 ?        00:01:49 teamviewer[1;33m[Kd[m[K
+ 1589 ?        00:00:00 system[1;33m[Kd[m[K
+ 1595 ?        00:00:22 gnome-keyring-[1;33m[Kd[m[K
+ 1669 ?        00:00:10 dbus-[1;33m[Kdaemon[m[K
+ 1733 ?        00:00:00 csd-clipboar[1;33m[Kd[m[K
+ 1745 ?        00:00:02 csd-keyboar[1;33m[Kd[m[K
+ 1751 ?        00:00:00 csd-backgroun[1;33m[Kd[m[K
+ 1770 ?        00:00:01 csd-soun[1;33m[Kd[m[K
+ 1813 ?        00:00:00 gvfs[1;33m[Kd[m[K
+ 1814 ?        00:00:00 syn[1;33m[Kdaemon[m[K
+ 1823 ?        00:00:00 dbus-[1;33m[Kdaemon[m[K
+ 1867 ?        00:00:01 rtkit-[1;33m[Kdaemon[m[K
+ 1872 ?        00:00:10 udisks[1;33m[Kd[m[K
+ 1891 ?        00:00:00 goa-[1;33m[Kdaemon[m[K
+ 1968 ?        00:00:00 obex[1;33m[Kd[m[K
+11466 ?        00:00:00 cups[1;33m[Kd[m[K
+11467 ?        00:00:00 cups-browse[1;33m[Kd[m[K
+15721 ?        00:00:00 gvfsd-dnss[1;33m[Kd[m[K
+[1m[7m%[27m[1m[0m                                                                                   ]2;akshay@Kumar: ~/Desktop/SEM8LAB/Device_Drivers/Lab_00]1;..rivers/Lab_00[0m[27m[24m[J
+[01;34mSEM8LAB/Device_Drivers/Lab_00[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[66C[1A[37m11h59m[00m [31m✖ [33m⚑ [37m◒  [01;31m[00m[1B[80D[?1h=[?2004heexit[?1l>[?2004l
+]2;exit]1;exit
+Script done on Monday 18 February 2019 10:32:40 AM IST

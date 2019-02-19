@@ -5,8 +5,9 @@ Device Drivers Lab Work
 
 Machine Description : 
 -	[lscpu](./Lab_00/lscpu.txt)
--	[lshw](./Lab_00/lshw.tx)
--	[screenfetch](./Lab_00/screenfetch.tx)
+-	[lshw](./Lab_00/lshw.txt)
+-	[screenfetch](./Lab_00/screenfetch.txt)
+-	[running daemons](./Lab_00/running_daemons.txt)
  -- --
 
 ##	Lab 00 : Basics of Linux, UNIX and Shell Scripting - 20190101
@@ -20,7 +21,7 @@ Machine Description :
 3.	List all Device Drivers from your OS.
 4.	Write a shell script with atleast 100 lines.
 	*	Reference: [Alexander Epstein - Bash Snippets](https://github.com/alexanderepstein/Bash-Snippets/blob/master/currency/currency)
-5.	Write a C program & attach it with Kernel
+5.	Write a C program & attach it with Kernel.
 6.	Download source code of a command not available in your OS & add it to your Kernel.
 
 ##	Lab 02 : Some Hands On with Device Drivers - 20190122

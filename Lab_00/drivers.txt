@@ -1,0 +1,133 @@
+Script started on Tuesday 19 February 2019 08:13:50 AM IST
+[1m[7m%[27m[1m[0m                                                                                                                                                                       
+ 
+]2;akshay@Kumar: ~/Desktop/SEM8LAB/Device_Drivers/Lab_00]1;..rivers/Lab_00
+[0m[27m[24m[J
+[01;34mSEM8LAB/Device_Drivers/Lab_00[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[155C[1A[37m1d[00m [31m✖ [33m⚑ [37m◒  [01;31m[00m[1B[165D[?1h=[?2004hllsmod[?1l>[?2004l
+
+]2;lsmod]1;lsmodModule                  Size  Used by
+uas                    24576  0
+usb_storage            69632  1 uas
+ccm                    20480  9
+binfmt_misc            20480  1
+nls_iso8859_1          16384  1
+rtsx_usb_ms            20480  0
+memstick               16384  1 rtsx_usb_ms
+uvcvideo               86016  0
+videobuf2_vmalloc      16384  1 uvcvideo
+videobuf2_memops       16384  1 videobuf2_vmalloc
+videobuf2_v4l2         24576  1 uvcvideo
+videobuf2_core         40960  2 uvcvideo,videobuf2_v4l2
+videodev              180224  3 uvcvideo,videobuf2_core,videobuf2_v4l2
+media                  40960  2 uvcvideo,videodev
+arc4                   16384  2
+btusb                  45056  0
+btrtl                  16384  1 btusb
+btbcm                  16384  1 btusb
+btintel                16384  1 btusb
+bluetooth             557056  5 btrtl,btintel,btbcm,btusb
+ecdh_generic           24576  1 bluetooth
+intel_rapl             20480  0
+x86_pkg_temp_thermal    16384  0
+intel_powerclamp       16384  0
+coretemp               16384  0
+kvm_intel             212992  0
+kvm                   598016  1 kvm_intel
+iwlmvm                364544  0
+irqbypass              16384  1 kvm
+crct10dif_pclmul       16384  0
+mac80211              778240  1 iwlmvm
+crc32_pclmul           16384  0
+ghash_clmulni_intel    16384  0
+pcbc                   16384  0
+aesni_intel           188416  6
+snd_hda_codec_hdmi     49152  1
+aes_x86_64             20480  1 aesni_intel
+crypto_simd            16384  1 aesni_intel
+snd_hda_codec_conexant    24576  1
+glue_helper            16384  1 aesni_intel
+snd_hda_codec_generic    73728  1 snd_hda_codec_conexant
+cryptd                 24576  3 crypto_simd,ghash_clmulni_intel,aesni_intel
+intel_cstate           20480  0
+intel_rapl_perf        16384  0
+snd_hda_intel          40960  5
+snd_hda_codec         126976  4 snd_hda_intel,snd_hda_codec_conexant,snd_hda_codec_hdmi,snd_hda_codec_generic
+snd_hda_core           81920  5 snd_hda_intel,snd_hda_codec_conexant,snd_hda_codec,snd_hda_codec_hdmi,snd_hda_codec_generic
+snd_hwdep              20480  1 snd_hda_codec
+snd_pcm                98304  4 snd_hda_intel,snd_hda_codec,snd_hda_core,snd_hda_codec_hdmi
+joydev                 24576  0
+input_leds             16384  0
+snd_seq_midi           16384  0
+snd_seq_midi_event     16384  1 snd_seq_midi
+serio_raw              16384  0
+i2c_i801               28672  0
+snd_rawmidi            32768  1 snd_seq_midi
+snd_seq                65536  2 snd_seq_midi_event,snd_seq_midi
+iwlwifi               282624  1 iwlmvm
+snd_seq_device         16384  3 snd_seq,snd_rawmidi,snd_seq_midi
+lpc_ich                24576  0
+snd_timer              32768  2 snd_seq,snd_pcm
+cfg80211              622592  3 iwlmvm,iwlwifi,mac80211
+snd                    81920  21 snd_hda_intel,snd_hwdep,snd_hda_codec_conexant,snd_seq,snd_hda_codec,snd_timer,snd_rawmidi,snd_hda_codec_hdmi,snd_hda_codec_generic,snd_seq_device,snd_pcm
+ideapad_laptop         32768  0
+mei_me                 40960  0
+soundcore              16384  1 snd
+mei                    90112  1 mei_me
+sparse_keymap          16384  1 ideapad_laptop
+shpchp                 36864  0
+wmi                    24576  1 ideapad_laptop
+acpi_pad              180224  0
+mac_hid                16384  0
+parport_pc             36864  0
+ppdev                  20480  0
+lp                     20480  0
+parport                49152  3 lp,parport_pc,ppdev
+autofs4                40960  2
+btrfs                1126400  0
+xor                    24576  1 btrfs
+zstd_compress         163840  1 btrfs
+raid6_pq              114688  1 btrfs
+dm_mirror              24576  0
+dm_region_hash         20480  1 dm_mirror
+dm_log                 20480  2 dm_mirror,dm_region_hash
+hid_generic            16384  0
+rtsx_usb_sdmmc         28672  0
+usbhid                 49152  0
+hid                   118784  2 hid_generic,usbhid
+rtsx_usb               20480  2 rtsx_usb_sdmmc,rtsx_usb_ms
+amdgpu               2732032  0
+chash                  16384  1 amdgpu
+i915                 1630208  7
+radeon               1478656  1
+ttm                   106496  2 amdgpu,radeon
+i2c_algo_bit           16384  3 amdgpu,radeon,i915
+drm_kms_helper        172032  3 amdgpu,radeon,i915
+syscopyarea            16384  1 drm_kms_helper
+sysfillrect            16384  1 drm_kms_helper
+sysimgblt              16384  1 drm_kms_helper
+psmouse               147456  0
+fb_sys_fops            16384  1 drm_kms_helper
+ahci                   36864  5
+drm                   401408  12 amdgpu,radeon,i915,ttm,drm_kms_helper
+r8169                  86016  0
+libahci                32768  1 ahci
+mii                    16384  1 r8169
+video                  45056  2 i915,ideapad_laptop
+[1m[7m%[27m[1m[0m                                                                                                                                                                       
+
+]2;ls --color=tty /lib/modules/4.15.0-33-generic/kernel/drivers/]1;ls[0m[34;40macpi[0m        [34;40mblock[0m      [34;40mdax[0m       [34;40mfirmware[0m  [34;40mhid[0m        [34;40miio[0m         [34;40mleds[0m       [34;40mmedia[0m     [34;40mmtd[0m     [34;40mparport[0m   [34;40mpower[0m     [34;40mregulator[0m   [34;40mspi[0m      [34;40mthunderbolt[0m  [34;40mvhost[0m     [34;40mxen[0m
+[34;40mata[0m         [34;40mbluetooth[0m  [34;40mdca[0m       [34;40mfmc[0m       [34;40mhsi[0m        [34;40minfiniband[0m  [34;40mlightnvm[0m   [34;40mmemstick[0m  [34;40mnet[0m     [34;40mpci[0m       [34;40mpowercap[0m  [34;40mremoteproc[0m  [34;40mspmi[0m     [34;40mtty[0m          [34;40mvideo[0m
+[34;40matm[0m         [34;40mchar[0m       [34;40mdma[0m       [34;40mfpga[0m      [34;40mhv[0m         [34;40minput[0m       [34;40mmacintosh[0m  [34;40mmessage[0m   [34;40mnfc[0m     [34;40mpcmcia[0m    [34;40mpps[0m       [34;40mreset[0m       [34;40mssb[0m      [34;40muio[0m          [34;40mvirtio[0m
+[34;40mauxdisplay[0m  [34;40mclk[0m        [34;40medac[0m      [34;40mfsi[0m       [34;40mhwmon[0m      [34;40miommu[0m       [34;40mmailbox[0m    [34;40mmfd[0m       [34;40mntb[0m     [34;40mphy[0m       [34;40mptp[0m       [34;40mrpmsg[0m       [34;40mstaging[0m  [34;40musb[0m          [34;40mvme[0m
+[34;40mbase[0m        [34;40mcpufreq[0m    [34;40mextcon[0m    [34;40mgpio[0m      [34;40mhwtracing[0m  [34;40mipack[0m       [34;40mmcb[0m        [34;40mmisc[0m      [34;40mnvdimm[0m  [34;40mpinctrl[0m   [34;40mpwm[0m       [34;40mrtc[0m         [34;40mtarget[0m   [34;40muwb[0m          [34;40mw1[0m
+[34;40mbcma[0m        [34;40mcrypto[0m     [34;40mfirewire[0m  [34;40mgpu[0m       [34;40mi2c[0m        [34;40misdn[0m        [34;40mmd[0m         [34;40mmmc[0m       [34;40mnvme[0m    [34;40mplatform[0m  [34;40mrapidio[0m   [34;40mscsi[0m        [34;40mthermal[0m  [34;40mvfio[0m         [34;40mwatchdog[0m
+[1m[7m%[27m[1m[0m                                                                                                                                                                       
+ 
+]2;akshay@Kumar: ~/Desktop/SEM8LAB/Device_Drivers/Lab_00]1;..rivers/Lab_00
+[0m[27m[24m[J
+[01;34mSEM8LAB/Device_Drivers/Lab_00[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[155C[1A[37m1d[00m [31m✖ [33m⚑ [37m◒  [01;31m[00m[1B[165D[?1h=[?2004heexit[?1l>[?2004l
+
+]2;exit]1;exit
+Script done on Tuesday 19 February 2019 08:15:00 AM IST
