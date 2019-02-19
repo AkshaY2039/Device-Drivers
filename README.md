@@ -39,26 +39,28 @@ Machine Description :
 ##	Lab 04 :  - 20190205
 
 ##	Lab 05 :  - 20190213
-1.	[IOCTL](https://github.com/DukeOwlington/ioctl_lkm)
-2.	Write a mouse driver module to track pointer position.
+0.	[IOCTL](https://github.com/DukeOwlington/ioctl_lkm)
+1.	Write IOCTL module.
 
-##	Lab 06 :  - 20190220
+##	Lab 06 :  - 20190219
+0.	Mouse Drivers Example
+	*	[Mouse Drivers - Alan Cox](./Lab_06/Mouse_Drivers__Alan_Cox.pdf)
+	*	[Linux Device driver module that changes brightness of the screen on click.](https://github.com/kajalv/mouse-driver/blob/master/dev_driver.c)
+1.	Write a mouse driver module to track pointer position.
 
-##	Lab 07 :  - 20190227
+##	Lab 07 :  - 20190305
 
-##	Lab 08 :  - 20190306
+##	Lab 08 :  - 20190312
 
-##	Lab 09 :  - 20190313
+##	Lab 09 :  - 20190319
 
-##	Lab 10 :  - 20190320
+##	Lab 10 :  - 20190326
 
-##	Lab 11 :  - 20190327
+##	Lab 11 :  - 20190402
 
-##	Lab 12 :  - 20190403
+##	Lab 12 :  - 20190409
 
-##	Lab 13 :  - 20190410
-
-##	Lab 14 :  - 20190417
+##	Lab 13 :  - 20190416
 
 ##	Assignments
 1.	Write an application in C to capture all network packets & display any password if it is found in HTTP packets.
