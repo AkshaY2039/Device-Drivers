@@ -8,6 +8,7 @@ Machine Description :
 -	[lshw](./Lab_00/lshw.txt)
 -	[screenfetch](./Lab_00/screenfetch.txt)
 -	[running daemons](./Lab_00/running_daemons.txt)
+-	[drivers](./Lab_00/drivers.txt)
  -- --
 
 ##	Lab 00 : Basics of Linux, UNIX and Shell Scripting - 20190101
