@@ -1,4 +1,5 @@
 # Extra Files
+*.pcap
 *.o
 *.out
 *.symvers
