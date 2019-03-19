@@ -1,5 +1,6 @@
 # Extra Files
 *.o
+*.out
 *.symvers
 *.mod.o
 *.order
