@@ -187,7 +187,6 @@ EOF
 
 gethttpGetTool || exit 1
 
-
 while getopts "uvh" opt; do
 	case "$opt" in
 		\?) echo "Invalid option: -$OPTARG" >&2

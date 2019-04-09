@@ -43,7 +43,7 @@ int check_requirements ()
 	char path[1035];
 
 	/* Open the command for reading. */
-	fp = popen ("dpkg -l | grep -o \"tcpick\\|tcpdump\"", "r"); //install tcpick for this
+	fp = popen ("dpkg -l | grep -o \"tcpick\\|tcpdump\"", "r"); //install tcpick & tcpdump for this
 	if (fp == NULL)
 	{
 		printf ("Failed to run command\n" );
