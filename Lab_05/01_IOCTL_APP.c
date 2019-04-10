@@ -5,7 +5,7 @@
 #include <string.h>
 #include <sys/ioctl.h>
 
-#include "query_ioctl.h"
+#include "IOCTL_QUERY.h"
 
 void get_vars(int fd)
 {

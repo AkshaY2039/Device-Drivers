@@ -7,7 +7,7 @@
 #include <linux/errno.h>
 #include <linux/uaccess.h>
 
-#include "query_ioctl.h"  // header file for ioctl commands for the device
+#include "IOCTL_QUERY.h"  // header file for ioctl commands for the device
 
 #define FIRST_MINOR 0
 #define MINOR_CNT 1
@@ -124,5 +124,5 @@ module_init(query_ioctl_init);
 module_exit(query_ioctl_exit);
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Anmol Gupta");
+MODULE_AUTHOR("Akshay Kumar");
 MODULE_DESCRIPTION("Query ioctl() Char Driver");

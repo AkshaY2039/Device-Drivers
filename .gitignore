@@ -9,3 +9,4 @@
 *.o.cmd
 .cache.mk
 *.ko.cmd
+.vscode/*
