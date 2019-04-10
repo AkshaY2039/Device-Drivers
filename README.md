@@ -54,12 +54,7 @@ Machine Description :
 
 ##	Lab 08 :  - 20190312
 0.	Network Device Drivers
-
-##	Lab 09 :  - 20190319
-
-##	Lab 10 :  - 20190326
-
-##	Lab 11 :  - 20190402
+1.	Try changing the IP of your 
 
 ##	End Sem Lab Exam : 20190409
 1.	Write a shell program which takes input as a character and prints output as its ASCII value.
