@@ -54,7 +54,7 @@ Machine Description :
 
 ##	Lab 08 :  - 20190312
 0.	Network Device Drivers
-1.	Try changing the IP of your 
+1.	C program to set IP Address of Linux Computer System.
 
 ##	End Sem Lab Exam : 20190409
 1.	Write a shell program which takes input as a character and prints output as its ASCII value.
